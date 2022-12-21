@@ -331,6 +331,41 @@ input[type=submit]:hover {
   padding-left: 35px;
 }
 
+/* about ---------------------------------------------- */
+
+.about-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 92vh;
+}
+
+.about-container .about-1 {
+  grid-column: 2/9;
+  grid-row: 2/8;
+}
+
+.about-container .about-2 {
+  grid-column: 9/17;
+  grid-row: 1/9;
+  background-image: url(../images/aboutme-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-1 p {
+  text-align: left;
+}
+
+.about-1 h1 {
+  text-align: left;
+  font-size: 60px;
+}
+
+
 /* responsive screens ------------------- */
 
 
@@ -814,6 +849,28 @@ input[type=submit]:hover {
     border-style: none;
   }
 
+/* about ---------------------------------------------- */
+
+.about-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 1200px;
+}
+
+.about-container .about-1 {
+  grid-column: 2/6;
+  grid-row: 1/5;
+}
+
+.about-container .about-2 {
+  grid-column: 2/6;
+  grid-row: 5/9;
+}
+
 }
 
 @media screen and (min-width:600px) and (max-width:767px) {
@@ -1059,6 +1116,36 @@ input[type=submit]:hover {
     border-style: none;
   }
 
+/* about ---------------------------------------------- */
+
+.about-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 1200px;
+}
+
+.about-container .about-1 {
+  grid-column: 2/6;
+  grid-row: 1/5;
+}
+
+.about-container .about-2 {
+  grid-column: 2/6;
+  grid-row: 5/9;
+}
+
+.about-1 p {
+  text-align: left;
+}
+
+.about-1 h1 {
+  text-align: left;
+  font-size: 60px;
+}
 
 }
 
@@ -1304,4 +1391,35 @@ input[type=submit]:hover {
     border-style: none;
     margin: auto;
   }
+
+  /* about ---------------------------------------------- */
+
+.about-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 1200px;
+}
+
+.about-container .about-1 {
+  grid-column: 2/6;
+  grid-row: 1/8;
+}
+
+.about-container .about-2 {
+  grid-column: 2/6;
+  grid-row: 8/11;
+}
+
+.about-1 p {
+  text-align: left;
+}
+
+.about-1 h1 {
+  text-align: left;
+  font-size: 60px;
+}
 }
